@@ -1,0 +1,58 @@
+# Build directories
+/build/
+/build-*/
+/out/
+/bin/
+/lib/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+
+# Debug / logs
+*.log
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Coverage / profiling
+*.gcda
+*.gcno
+*.prof
+
+# Clangd / IntelliSense
+.cache/
+.clangd/
+
+# Package managers
+conanbuildinfo.*
+conan.lock
